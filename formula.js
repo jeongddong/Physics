@@ -14,6 +14,8 @@ document.addEventListener("keyup", function(e) {
   if (e.code == "Space") {
     laterX = thing.x;
     laterY = thing.y;
-    console.log(firstX, firstY, laterX, laterY);
+    console.log(`firstX : ${firstX}, `, `firstY : ${firstY}, `, `laterX : ${laterX}, `, `laterY : ${laterY}`);
   }
 });
+
+
